@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="www.draw.io" modified="2020-08-30T13:22:36.527Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" version="13.6.5" etag="XAhGKZYfX0i4AUiXlCph" type="google">
+  <diagram id="klpfAyMO1uuRM20AHUSL">
+    <mxGraphModel dx="2883" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="1040" width="1375" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="460" width="1240" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ViewMVC&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getRootView(): View&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="490" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;ObservableViewMvc&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ registerListener(listener: ListenerType): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unregisterListener(listener: ListenerType): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="630" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="ListenerType:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="610" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;BaseViewMvc&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mRootView: View&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;setRootView(rootView: View)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;getRootView(): View&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ findViewById( id: Int): T extends View&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;getContext():Context&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="155" y="570" width="235" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" source="7" target="4" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="580" as="sourcePoint" />
+            <mxPoint x="130" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="605" />
+              <mxPoint x="110" y="522" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Extends&lt;/font&gt;&lt;/b&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" source="7" target="5" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="480" as="sourcePoint" />
+            <mxPoint x="250" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Listener&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ onQuestionClicked(question: Question)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1249" y="1233" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;QuestionsListItemViewMvc&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ bindQuestion(question:Question)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1237" y="1112.5" width="216.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="11" target="10" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1129" y="1183" as="sourcePoint" />
+            <mxPoint x="-1129" y="1243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Extends&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" source="11" target="5" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-320" y="1000" as="sourcePoint" />
+            <mxPoint x="-160" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1129" y="1010" />
+              <mxPoint x="-240" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="QuestionsListItemViewMvc.&lt;b&gt;Listener&lt;/b&gt;:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040.5" y="1086.5" width="244" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="5" target="4" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-220" y="609.5" as="sourcePoint" />
+            <mxPoint x="-60" y="609.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;BaseObservableViewMvc&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mListeners: HasSet &amp;lt;&amp;nbsp;&lt;span&gt;ListenerType&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getListeners(): Set &amp;lt;&amp;nbsp;&lt;span&gt;ListenerType&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;+ registerListener(listener: ListenerType): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ unregisterListener(listener: ListenerType): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="487" y="576" width="285" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="ListenerType:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="712" y="553" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="16" target="7" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="455" y="660" as="sourcePoint" />
+            <mxPoint x="615" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Common" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;QuestionsListItemViewMvcImpl&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mTxtTitle: TextView&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+mQuestion:&amp;nbsp;Question&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ QuestionsListItemViewMvcImpl(inflater: LayoutInflater, parent: ViewGroup )&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ bindQuestion(question: Question): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-549" y="1092" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="QuestionsListItemViewMvc.&lt;b&gt;Listener&lt;/b&gt;:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="1062" width="244" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="20" target="11" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-819" y="1023" as="sourcePoint" />
+            <mxPoint x="-659" y="1023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" source="20" target="16" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="860" as="sourcePoint" />
+            <mxPoint x="430" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-334" y="1010" />
+              <mxPoint x="558" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Item" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1319" y="1020" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1030" width="1580" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Listener&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ onQuestionClicked(question: Question)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="558" y="1236" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;QuestionsListViewMvc&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ bindQuestion(question: Question):void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ showProgressIndication(): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ hideProgressIndication():void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550.5" y="1090" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="27" target="26" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="678" y="1173" as="sourcePoint" />
+            <mxPoint x="678" y="1233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="QuestionsListViewMvc.&lt;b&gt;Listener&lt;/b&gt;:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="759" y="1068" width="244" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;QuestionsListViewMvcImpl&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mToolbarViewMvc: ToolbarViewMvc&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mNavDrawerHelper:&amp;nbsp;NavDrawerHelper&lt;br&gt;&lt;/p&gt;&amp;nbsp;+ mToolbar:&amp;nbsp;Toolbar&lt;br&gt;&amp;nbsp;+ mRecyclerQuestions:&amp;nbsp;RecyclerView&lt;br&gt;&amp;nbsp;+ mAdapter:&amp;nbsp;&lt;b&gt;QuestionsRecyclerAdapter&lt;/b&gt;&lt;br&gt;&amp;nbsp;+ mProgressBar:&amp;nbsp;ProgressBar&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;span&gt;QuestionsListViewMvcImpl( inflater: LayoutInflater,&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp;parent: ViewGroup, navDrawerHelper: NavDrawerHelper, viewMvcFactory: ViewMvcFactory)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ initToolbar(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;onQuestionClicked():&amp;nbsp;void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;bindQuestions( questions: List&amp;lt;Question&amp;gt;)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;showProgressIndication(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;hideProgressIndication(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1075" width="820" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="QuestionsListViewMvc.&lt;b&gt;Listener&lt;/b&gt;:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1040" width="244" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="30" target="27" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="988" y="1013" as="sourcePoint" />
+            <mxPoint x="1148" y="1013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="List view" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="1010" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" source="27" target="5" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="890" as="sourcePoint" />
+            <mxPoint x="800" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="678" y="1000" />
+              <mxPoint x="-92" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" source="30" target="16" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="840" as="sourcePoint" />
+            <mxPoint x="1380" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="1000" />
+              <mxPoint x="701" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;QuestionsRecyclerAdapter&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;+ mListener: &lt;b&gt;Listener&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;+ mViewMvcFactory: ViewMvcFactory&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;+ mQuestions: List&amp;lt;Question&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;hr size=&quot;1&quot; style=&quot;font-size: 16px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&amp;nbsp;+ QuestionsRecyclerAdapter(&lt;b&gt;&lt;font color=&quot;#0000cc&quot; style=&quot;font-size: 16px&quot;&gt;listener: Listener&lt;/font&gt;&lt;/b&gt; , viewMvcFactory:ViewMvcFactory)&lt;br&gt;&amp;nbsp;+&amp;nbsp;bindQuestions( questions: List&amp;lt;Question&amp;gt;): void&lt;br&gt;&amp;nbsp;+ onCreateViewHolder(parent: ViewGroup,&amp;nbsp; viewType: int):MyViewHolder&lt;br&gt;&amp;nbsp;+&amp;nbsp;onBindViewHolder(holder: MyViewHolder , position: int):&amp;nbsp;void&lt;br&gt;&amp;nbsp;+&amp;nbsp;getItemCount(): int&lt;br&gt;&amp;nbsp;+&amp;nbsp;onQuestionClicked( question: Question): void&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1430" width="630" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="QuestionsRecyclerAdapter.&lt;b&gt;MyViewHolder&lt;/b&gt;:Class" style="html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1400" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" source="36" target="10" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="1760" as="sourcePoint" />
+            <mxPoint x="480" y="1760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1560" />
+              <mxPoint x="-1129" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;RecyclerView.Adapter&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="1810" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="36" target="39" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1720" y="1506" as="sourcePoint" />
+            <mxPoint x="2097.5" y="1361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Listener&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ onQuestionClicked(question: Question)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="487" y="1436" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;strokeWidth=2;entryX=0.997;entryY=0.861;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" source="36" target="41" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="688" y="1200" as="sourcePoint" />
+            <mxPoint x="688" y="1245.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Static Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;MyViewHolder&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ mViewMvc:QuestionsListItemViewMvc&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;MyViewHolder(viewMvc: QuestionsListItemViewMvc)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1591" width="322" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.003;exitY=0.788;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="36" target="43" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="1880" as="sourcePoint" />
+            <mxPoint x="777" y="1447" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;RecyclerView.ViewHolder&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1641" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" source="43" target="45" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="1420" as="sourcePoint" />
+            <mxPoint x="390" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;strokeWidth=2;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="43" target="11" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="280" y="1570" as="sourcePoint" />
+            <mxPoint x="440" y="1570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1290" y="1616" />
+              <mxPoint x="-1290" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" source="30" target="36" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="900" y="1290" as="sourcePoint" />
+            <mxPoint x="1060" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;strokeWidth=2;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" source="36" target="41" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="720" y="1340" as="sourcePoint" />
+            <mxPoint x="880" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="1430" />
+              <mxPoint x="790" y="1453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
